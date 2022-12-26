@@ -40,10 +40,25 @@ li {
   font-size: 18sp;
 }
 <!-- Selects all the Ps insided footer,
-Descendent selector-- > footer p {
+/* Descendent selector-- > footer p {
   text-align: center;
   font-size: 16px;
 }
-artcile header p {
+
+article header p {
   font-style: italic;
+} */
+
+#id-author {
+  font-style: italic;
+  font-size: 16px;
+}
+#id-copyright {
+  text-align: center;
+  font-size: 16px;
+  background-color: antiquewhite;
+}
+.related-author {
+  font-size: 18px;
+  font-weight: bold;
 }
