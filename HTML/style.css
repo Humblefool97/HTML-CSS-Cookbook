@@ -1,3 +1,36 @@
 h1 {
-  color: brown;
+  color: blue;
+  font-size: 48px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: capitalize;
+  font-style: italic;
+}
+
+h2 {
+  font-size: 52px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+h3 {
+  font-size: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+}
+h4 {
+  font-size: 20px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+}
+p {
+  font-size: 22px;
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+ul {
+  font-family: sans-serif;
+  font-size: 18px;
+}
+li {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18sp;
 }
