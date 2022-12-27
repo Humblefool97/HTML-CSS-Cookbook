@@ -1,17 +1,24 @@
 h1,
 h2,
 h3,
+h4,
+p,
 li {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #444;
 }
 
+h1,
+h2,
+h3 {
+  color: #1098ad;
+}
 h4,
 p,
 ul {
   font-family: sans-serif;
 }
 h1 {
-  color: blue;
   font-size: 48px;
   text-transform: capitalize;
   font-style: italic;
@@ -39,6 +46,9 @@ ul {
 li {
   font-size: 18sp;
 }
+.class-main-header {
+  background-color: #f7f7f7;
+}
 <!-- Selects all the Ps insided footer,
 /* Descendent selector-- > footer p {
   text-align: center;
@@ -65,3 +75,20 @@ article header p {
 .class-list-items {
   list-style: none;
 }
+aside {
+  background-color: #f7f7f7;
+  border-top: 5px solid #1098ad;
+  border-radius: 10px;
+}
+/* All the first-child of li elements.You can also supply values like odd or even*/
+li:nth-child(2) {
+  font-weight: bold;
+}
+/*This wont work.Because p is not the first child of article.It is header*/
+article p:first-child {
+  color: red;
+}
+/*This works*/
+/* article p:last-child {
+  background-color: aliceblue;
+} */
