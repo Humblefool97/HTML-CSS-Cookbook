@@ -80,7 +80,7 @@ aside {
   border-top: 5px solid #1098ad;
   border-radius: 10px;
 }
-/* All the first-child of li elements.You can also supply values like odd or even*/
+/* All the first-child of li elements.You can also supply values like odd or even.These are called pseudo classes (:)*/
 li:nth-child(2) {
   font-weight: bold;
 }
@@ -92,3 +92,24 @@ article p:first-child {
 /* article p:last-child {
   background-color: aliceblue;
 } */
+/*Styling links*/
+/*Styling links visited.Maintain the same order*/
+
+a:link {
+  color: #1098ad;
+  text-decoration: none;
+}
+a:visited {
+  color: #1098ad;
+}
+
+a:hover {
+  color: orange;
+  font-weight: bold;
+  text-decoration: underline dotted orangered;
+}
+/*Click state*/
+a:active {
+  background-color: black;
+  font-style: italic;
+}
