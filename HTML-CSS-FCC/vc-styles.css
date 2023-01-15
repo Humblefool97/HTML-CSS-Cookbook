@@ -1,0 +1,35 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 20px;
+}
+
+.img-dp {
+  width: 200px;
+  height: 200px;
+}
+.container-body {
+  display: flex;
+  width: 400px;
+  justify-content: space-around;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  background: #ddebf8;
+}
+
+.container-text {
+  margin: 50px;
+  text-align: center;
+  color: #2b2839;
+}
+
+/*Utility class*/
+.dotted-blue-border {
+  border: 1px dotted blue;
+}
+
+.bottom-border-blue {
+  border-bottom: 4px solid blue;
+}

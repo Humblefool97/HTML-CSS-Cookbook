@@ -1,0 +1,47 @@
+/*Selector*/
+body {
+  background: white;
+  color: black;
+  font-size: 20px;
+  font-weight: lighter;
+  text-align: center;
+  margin-top: 5px;
+  font-family: sans-serif;
+}
+
+.card {
+  color: #222222;
+  background: lightgray;
+  width: 300px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+
+  border: 2px solid #222222;
+  border-radius: 30px;
+  padding: 20px;
+}
+
+.button-following {
+  color: #0f1419;
+  border: 1px solid #cfd9de;
+  background: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 50px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+.item {
+  border: 1px solid black;
+  padding: 20px;
+  text-align: center;
+  margin: 10px;
+  font-size: 15px;
+}
+.nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+}

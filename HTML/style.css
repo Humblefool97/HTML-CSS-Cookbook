@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 h1,
 h2,
 h3,
@@ -48,6 +52,10 @@ li {
 }
 .class-main-header {
   background-color: #f7f7f7;
+  padding: 20px;
+  /*This indicated (left-right),(top-bottom) padding*/
+  /*padding: 20px 40px;*/
+  border-top: 5px solid #1098ad;
 }
 <!-- Selects all the Ps insided footer,
 /* Descendent selector-- > footer p {
@@ -66,7 +74,6 @@ article header p {
 #id-copyright {
   text-align: center;
   font-size: 16px;
-  background-color: antiquewhite;
 }
 .related-author {
   font-size: 18px;
@@ -113,3 +120,13 @@ a:active {
   background-color: black;
   font-style: italic;
 }
+/*Read more on how conflicting declarations are resolved*/
+/* #id-copyright {
+  color: red;
+}
+.class-copyright {
+  color: antiquewhite;
+}
+.text {
+  color: #444;
+} */
