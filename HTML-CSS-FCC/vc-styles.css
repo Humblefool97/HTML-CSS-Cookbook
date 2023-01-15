@@ -12,15 +12,12 @@ body {
   width: 400px;
   justify-content: space-around;
   padding: 20px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: auto;
-  margin-bottom: auto;
+  margin: 0 auto;
   background: #ddebf8;
 }
 
 .container-text {
-  margin: 50px;
+  margin: 10px auto 10px auto;
   text-align: center;
   color: #2b2839;
 }
@@ -31,5 +28,5 @@ body {
 }
 
 .bottom-border-blue {
-  border-bottom: 4px solid blue;
+  border-bottom: 4px solid blueviolet;
 }
