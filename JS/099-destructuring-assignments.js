@@ -35,3 +35,21 @@ function getMaxOfTomorrow(forecast) {
 
   return maxOfTomorrow;
 }
+//Destructing in arrays
+const myArray = [1, 2, 3, 4, 5, 6, 7, 8];
+const [, , ...clipedArray] = myArray;
+console.log(`Array skipping first 2 elements .. ${clipedArray}`);
+
+//Passing destructured objects as params (Commonly used for collecting responces from API requests)
+const stats = {
+  max: 1,
+  min: 0.5,
+  standard_deviation: 4.34,
+  mode: 23.87,
+};
+
+const half = ({ max, min }) => {
+  return (max + min) / 2.0;
+};
+
+console.log(half(stats));
