@@ -40,19 +40,22 @@ function phoneticLookup(val) {
     echo: "Easy",
     foxtrot: "frank",
   };
-  result = lookup[val];
-  return result;
+  if (lookup.hasOwnProperty(val)) {
+    return (result = lookup[val]);
+  } else {
+    return "Not found";
+  }
 }
 
 console.log(phoneticLookup("charlie"));
 
 //Check object has a property using : hasOwnProperty
 function checkObj(property) {
-  var ret 
-   if(ourDog.hasOwnProperty(property){
-    ret = "has property "
-  }else{
-    ret = "not fount"
+  var ret;
+  if (ourDog.hasOwnProperty(property)) {
+    ret = "has property ";
+  } else {
+    ret = "not fount";
   }
-  return ret
+  return ret;
 }
